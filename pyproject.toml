@@ -1,0 +1,18 @@
+[project]
+name = "jobs-decorator"
+version = "0.1.0"
+description = "Turn Python functions into remote Hugging Face Jobs with a decorator"
+readme = "README.md"
+authors = [
+    { name = "erikkaum", email = "erik.kaum@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "huggingface_hub>=0.30.0",
+    "cloudpickle>=3.0",
+    "tomli>=2.0; python_version < '3.11'",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.9,<0.10.0"]
+build-backend = "uv_build"
