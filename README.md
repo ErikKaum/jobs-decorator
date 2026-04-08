@@ -1,5 +1,7 @@
 # jobs-decorator
 
+> **Warning**: This project is in early development. APIs may change and things might not work as expected.
+
 Turn Python functions into remote [Hugging Face Jobs](https://huggingface.co/docs/hub/jobs) with a single decorator.
 
 ```python
